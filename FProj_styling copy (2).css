@@ -20,8 +20,11 @@ html {
   border-radius: 50px;
 }
 .foodImg{
-  height: 60%;
-  width: 45%;
+  height: 30%;
+  width: 15%;
+  margin-right: 50%;
+  margin-top: 5%;
+  border-radius: 50px;
 }
 /* body {
   background: url(https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg);
