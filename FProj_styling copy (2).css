@@ -12,6 +12,9 @@ html {
   font-weight: lighter;
   font-size: 40px;
 }
+div[id*="Home"]:first-of-type {
+  display:block;
+}
 #HP_pic{
 	height: 60%;
 	width: 45%;
