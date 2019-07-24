@@ -1,0 +1,114 @@
+html {
+  font-family: sans-serif;
+  font-weight: lighter;
+  scroll-behavior: smooth;
+}
+.header{
+  font-family: sans-serif;
+  padding: 1px;
+  text-align: center;
+  background: #e8aba0;
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+}
+#HP_pic{
+	height: 60%;
+	width: 45%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border-radius: 50px;
+}
+/* body {
+  background: url(https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+} */
+
+
+.Page {
+	background-color: transparent; 
+	text-align: left;
+    font-size: 400%;
+    color: #3b3b3b;
+    line-height: 100%;
+    padding: 50px;
+}
+
+#paragraph2{
+  font-family: sans-serif;
+  padding: 1px;
+  background: #a5c4d9;
+  font-weight: lighter;
+
+  font-size: 50px;
+  color: #3b3b3b;
+  line-height: 30px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg');
+
+  height: 80%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax2{
+  height:20%;
+}
+
+
+
+/* Buttons and stuff */
+
+.button {
+  height : 80px;
+  width : 200px;
+  border-radius: 12px;
+}
+
+
+
+
+.collapsible {
+  background-color: #dae3f2;
+  color: #444;
+  cursor: pointer;
+  padding: 17px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: serif;
+  border-radius: 12px;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #90abd6;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  margin-left: 30px;
+  padding-left: 30px;
+  display: none;
+  overflow: hidden;
+  background-color: #f0f5ff;
+  font-size: 24px;
+  width: 60%;
+  border-left: 30px;
+  border-radius: 12px;
+}
