@@ -12,28 +12,27 @@ html {
   font-weight: lighter;
   font-size: 40px;
 }
-#Home {
-  display:block;
-}
+
 #HP_pic{
 	height: 60%;
 	width: 45%;
   margin-right: 5%;
-  margin-top: 5%;
-  border-radius: 50px;
+  border-radius: 100px;
 }
 .foodImg{
   height: 50%;
   width: 35%;
   margin-right: 50%;
-  margin-top: 5%;
-  border-radius: 50px;
+
+
+  margin-top: 5%;border-radius: 50px;
 }
 #wo{
   background-color: #ceeef5;
 }
 #ni{
   background-color: #f7e1e2;
+
 }
 /* body {
   background: url(https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg);
@@ -110,7 +109,8 @@ html {
     font-size: 400%;
     color: #3b3b3b;
     line-height: 100%;
-    padding: 50px;
+  margin-top: 150px;
+  margin-left: 130px;
 }
 
 #paragraph2{
@@ -132,7 +132,7 @@ body, html {
   /* The image used */
   background-image: url('https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg');
 
-  height: 80%;
+  height: 40%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -141,54 +141,30 @@ body, html {
   background-size: cover;
 }
 
-#parallax2{
-  height:20%;
-}
 
 
-
-/* Buttons and stuff */
-
-.button {
-  height : 80px;
-  width : 200px;
-  border-radius: 12px;
-}
-
-
-
-
-.collapsible {
-  background-color: #dae3f2;
-  color: #444;
-  cursor: pointer;
-  padding: 17px;
-  width: 70%;
+.tablink {
+  background-color: #a2ccde;
+  color: white;
+  float: left;
   border: none;
+  cursor: pointer;
+  padding: 16px;
+  font-size: 20px;
+  width: 16.6%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #839ba6;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: black;
+  display:block;
+  padding: 50px;
   text-align: left;
-  outline: none;
-  font-size: 30px;
-  font-family: serif;
-  border-radius: 12px;
-
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #90abd6;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  margin-left: 30px;
-  padding-left: 30px;
-  display: none;
-  overflow: hidden;
-  background-color: #f0f5ff;
-  font-size: 24px;
-  width: 60%;
-  border-left: 30px;
-  border-radius: 12px;
 }
 
 .example1 {
