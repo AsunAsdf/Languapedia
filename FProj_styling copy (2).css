@@ -29,6 +29,9 @@ html {
   margin-top: 5%;
   border-radius: 50px;
 }
+#wo{
+  background-color: red;
+}
 /* body {
   background: url(https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg);
   background-repeat: repeat-y;
