@@ -1,176 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-<link rel="stylesheet" href="FProj_styling copy (2).css">
-<script src="Translator.js" type="text/javascript"></script>
-<meta charset="utf-8">
-<title>Languapedia</title>
+  <link rel="stylesheet" href="FProj_styling copy (2).css">
+  <script src= "Translator.js"></script>
+  <script src= "FProj_RachelEdits.js"></script>
+
+  <meta charset= "utf-8">
+  <title>Languapedia</title>
 </head>
 <body>
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="openCity(event, 'History')">History</button>
-  <button class="tablinks" onclick="openCity(event, 'Popular Trends in China')">Popular Trends in China</button>
-  <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
-  <button class="tablinks" onclick="openCity(event, 'Conversation')">Conversation</button>
-</div>
-<div id="Home" class="tabcontent">
-  <h1>Languapedia</h1>
-<img align= right src="https://assets.nst.com.my/images/articles/13ntforeignlanguage2_1518503581.jpg">
 
-<div class="Page" align=left>
-    The <strong>Must-Have</strong></p>
-    <p>Ultimate</p>
-    <p><strong>Language</strong> Guide</p>
+  <div class="header">
+    <p>Languapedia</p>
   </div>
+
+  <button id="defaultOpen" class="tablink" onclick="tabOpen('Home', this,'#839ba6')"  >Home</button>
+  <button class="tablink" onclick="tabOpen('Music',this,'#839ba6')">Music</button>
+  <button class="tablink" onclick="tabOpen('Food', this, '#839ba6')">Food</button>
+  <button class="tablink" onclick="tabOpen('History', this, '#839ba6')">History</button>
+  <button class="tablink" onclick="tabOpen('Translator', this, '#839ba6')">Translator</button>
+  <button class="tablink" onclick="tabOpen('Conversation', this, '#839ba6')">Conversation</button>
+
+  <div class="parallax">
   </div>
-<div class="header">
-<p>Culture</p>
-<div class="Page" id="paragraph2" align=left>
-</div>
 
-</div>
-<div class="parallax" id="parallax2"></div>
+  <div id="Home" class="tabcontent">
+    <h1>Home</h1>
+    <img id= "HP_pic" align= right src="https://assets.nst.com.my/images/articles/13ntforeignlanguage2_1518503581.jpg">
 
-<div id="Popular Trends in China" class="tabcontent">
-  <h3>MUSIC</h3>
-  <p>
-    yīn yuè<br>音乐<br>Example sentence：<br>Nǐ xǐhuān tīng shénme yàng de yīnyuè?<br>你喜欢听什么样的音乐<br>What kind of music do you like to listen to?<br><br>
-    Here are some music artists that are very popular in China right now:<br><br>
-    1. Joker Xue：<br>
-    <a href=https://www.youtube.com/watch?v=9LFk4TmBFY4>  你还要我怎样 - What do you want me to do</a><br><a href= https://www.youtube.com/watch?v=XKuL5xaKZHM>演员 - The Actress</a><br>
-    2. JJ Lin<br>
-    <a href=https://www.youtube.com/watch?v=vsBf_0gDxSM> 可惜沒如果 - If only</a><br>
-    <a href=https://www.youtube.com/watch?v=LWV-f6dMN3Q> 修炼爱情 - Practice Love</a><br>
-    3. Eric Chou<br>
-    <a href=https://www.youtube.com/watch?time_continue=1&v=Ew4VvF0DPMc> 以後別做朋友 - Let's not be friends in the future</a><br>
-    <a href=https://www.youtube.com/watch?v=TGIdRRuN7b4>   我愛過你 - I loved you</a><br>
-    4. Michael Wong
-    <a href=https://www.youtube.com/watch?v=bBcp_ljCBGU> 童话 - Fairytale</a><br>
-    5. Eason Chan
-    <a href=https://www.youtube.com/watch?v=UsFQ9kbpQhw> 好久不见 - Long time no see</a><br><br>
-
-    <h1>TV SHOWS</h1><br>Diàn shì jù<br>电视剧<br>Nín zuì xǐhuān de diànshìjù shì shénme<br>你最喜欢的电视剧是什么<br>What is your favorite TV Show?<br>
-    <br>Here are some popular TV shows in China right now:<br><br>
-    1. The Story Of Minglan 知否知否应是绿肥红瘦 <br>
-    2. Anti-Japanese 荡寇 <br>
-    3. I Will Never Let You Go 小女花不弃 <br>
-    4. Story of Yangxi Palace 延禧攻略 <br>
-    5. Happy Camp <br>
-    6. Ashes of Love 香蜜沉沉烬如霜 <br>
-    </p>
-</div>
-<div class ="row">
-<div id="Food" class="tabcontent">
-  <h3>FOOD</h3>
-  <div> Do you ever find yourself at a Chinese restaurant having no idea what to order? Well you’ve come to the right place! Here are the most popular dishes in the Chinese cuisine that you need to try ASAP!<br>
-  <div class="column"> Jiǎozi<br>饺子<br>Dumplings<br><img class="foodImg" src= http://s15.sinaimg.cn/mw690/a5bdca08gx6CKV4hHf86e&690> </div>
-  <div class="column">Bāozi<br>包子<br>steamed bun<br><img class="foodImg" src= https://omnivorescookbook.com/wp-content/uploads/2018/01/Kimchi-Pork-Steamed-Bun-9.jpg></div>
-  <div class="column">Miàntiáo<br>面条<br>noodles<br><img class="foodImg" src=https://www.loveandoliveoil.com/wp-content/uploads/2015/03/soy-sauce-noodles4-1-600x900.jpg></div>
-  <div class="column">chá<br>茶<br>Tea<br><img class="foodImg" src=https://st2.depositphotos.com/1761693/7800/i/950/depositphotos_78002316-stock-photo-green-tea-with-jasmin-top.jpg></div>
-  <div class="column">nǎichá<br>奶茶<br>Milk tea<br><img class="foodImg" src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Classic_bubble_tea.jpg/220px-Classic_bubble_tea.jpg></div>
-  <p class="column">tāng<br>汤<br>Soup<br><img class="foodImg" src=https://www.gimmesomeoven.com/wp-content/uploads/2017/01/Chinese-Hot-and-Sour-Soup-Recipe-1-2.jpg></p>
-<a href=https://www.thedailymeal.com/eat/best-chinese-restaurant-every-state-gallery>The best Chinese resturaunt in every state: The Daily Meal</a>
-</div>
-</div>
-<div>
-
-  <!-- 1. Alabama: Ming's Garden - 1741 Eastern Blvd, Montgomery, AL 36117 <br>
-  Alaska: Charlie's Bakery - 2729 C St (at E Northenlights Blvd) Anchorage, AK 99503 <br>
-  2. Arizona: King Wong - 2547 N 32nd St Phoenix, AZ 85008 <br>
-  Arkansas: Mr. Chen's - 3800 S University Ave (Asher) Little Rock, AR 72204<br>
-  3. California: Koi Palace - 365 Gellert Blvd (at Hickey Blvd.) Daly City, CA 94015<br>
-  4. Colorado: Star Kitchen - 2917 W Mississippi Ave (Federal and Mississippi) Denver, CO 80219<br>
-  5. Connecticut: Ching's Table - 64 Main St. New Canaan, CT 06840<br>
-  6. Delaware: Tree Garden - 13-17 McKennans Church Rd (at Milltown Rd) Wilmington, DE 19808<br>
-  7. Florida: Hakkasan - 4441 Collins Ave (Fontainebleau) Miami Beach, FL 33140<br>
-  8. Georgia: Oriental Pearl - 5399 New Peachtree Rd Chamblee, GA 30341<br>
-  9. Hawaii: Fook Lam - 100 N Beretania St Ste 110-112 (Chinatown Cultural Plaza Center) Honolulu, HI 96817<br>
-  10. Idaho: Wok-Inn Noodle 4912 W Emerald St (Orchard) Boise, ID 83706<br>
-  11. Illinois: MingHin Cuisine - 2168 S Archer Ave (at S Princeton Ave)
-  Chicago, IL 60616<br>
-  12. Indiana: Asian Snack - 3605 Commercial Dr, Indianapolis, IN 46222<br>
-  13. Iowa: Le's Chinese Bar-B-Que - 1600 2nd Ave Des Moines, IA 50314 <br>
-  14. Kansas: Lee's Chinese Restaurant - 6215 W Kellogg Dr Wichita, KS 67209 <br>
-  15. Kentucky: Oriental House - 4302 Shelbyville Rd Louisville, KY 40207 <br>
-  16. Louisiana: Red's - 3048 Saint Claude Ave New Orleans, LA 70117 <br>
-  17. Maine:
-  18. Maryland:
-  19. Massachusetts: -->
-
-
-</div>
-
-</p>
-</div>
-</div>
-<div id="History" class="tabcontent">
-  <h1>HISTORY</h1>
-  <p></p>
-</div>
-<div class="row">
-<div id="Conversation" class="tabcontent">
-<h1>BASIC WORDS</h1>
-<div class="column2">
-<p id="wo">1. <br>Wǒ<br><strong>我</strong><br>I</p>
-<p id="ni">2.<br>Nǐ<br><strong>你</strong><br>You</p>
-<p id="wo">3.<br>Jiā<br><strong>家</strong><br>Home</p>
-<p id="ni">4.<br>Ài<br><strong>爱</strong><br>English meaning: love</p>
-<p id="wo">5.<br>xiǎng<br><strong>想</strong><br>miss</p>
-<p id="ni">6.<br>Hěn<br><strong>很</strong><br>very</p>
-<p id="wo">7.<br> Bù<br><strong>不</strong><br>No</p>
-</div>
-<div class="column2">
-<p id="wo">Sentence:<br>Wǒ wǔ suìle<br><strong>我</strong>五岁了。<br>I am five years old.</p>
-<p id="ni">Sentence:<br>Nǐ jiào shénme míngzì<br><strong>你</strong>叫什么名字<br>What is your name?</p>
-<p id="wo">Sentence:<br>Wǒ xiǎng huí jiā<br>我想回<strong>家</strong>。<br>I want to go home.</p>
-<p id="ni">Sentence:<br>Wǒ ài nǐ<br>我<strong>爱</strong>你。<br>I love you.</p>
-<p id="wo">Sentence:<br>Wǒ xiǎng nǐ<br>我<strong>想</strong>你<br>I miss you.</p>
-<p id="ni">Sentence:<br>Tā hěn měilì<br>她<strong>很</strong>美丽。<br>She is very beautiful.</p>
-<p id="wo"><br>Sentence:<br>Wǒ bùyào qù xuéxiào.<br>我<strong>不</strong>要去学校<br>I do not want to go to school.
-</p>
-</div>
-</div>
-</div>
-
-
-
-
-
-<h3>Basic conversational phrases</h3>
-<!-- 1. <br>Nǐ hǎo<br>你好<br>Hello<br>
-2. <br>Zàijiàn<br>再见<br>Goodbye<br>
-3. <br>Duìbùqǐ<br>对不起<br>I'm sorry<br>
-4. <br>Xièxiè<br>谢谢<br>Thank you<br>
-</div> --> -->
-
-</div>
-</div>
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
-</body>
-
-
-  </head>
-  <body>
-    <div class="parallax">
-    <p class="Title">Langupedia</p>
-
+    <div class="Page" align=left>
+      <p>The <strong>Must-Have</strong></p>
+      <p>Ultimate</p>
+      <p><strong>Language</strong> Guide</p>
     </div>
-    <div class="header">
+  </div>
+
+  <div id="Music" class="tabcontent">
+    <h1>Music</h1>
+    <p>
+      yīn yuè<br>音乐<br>Example sentence：<br>Nǐ xǐhuān tīng shénme yàng de yīnyuè?<br>你喜欢听什么样的音乐<br>What kind of music do you like to listen to?<br><br>
+      Here are some music artists that are very popular in China right now:<br><br>
+      1. Joker Xue：<br>
+      <a href=https://www.youtube.com/watch?v=9LFk4TmBFY4>  你还要我怎样 - What do you want me to do</a><br><a href= https://www.youtube.com/watch?v=XKuL5xaKZHM>演员 - The Actress</a><br>
+      2. JJ Lin<br>
+      <a href=https://www.youtube.com/watch?v=vsBf_0gDxSM> 可惜沒如果 - If only</a><br>
+      <a href=https://www.youtube.com/watch?v=LWV-f6dMN3Q> 修炼爱情 - Practice Love</a><br>
+      3. Eric Chou<br>
+      <a href=https://www.youtube.com/watch?time_continue=1&v=Ew4VvF0DPMc> 以後別做朋友 - Let's not be friends in the future</a><br>
+      <a href=https://www.youtube.com/watch?v=TGIdRRuN7b4>   我愛過你 - I loved you</a><br>
+      4. Michael Wong
+      <a href=https://www.youtube.com/watch?v=bBcp_ljCBGU> 童话 - Fairytale</a><br>
+      5. Eason Chan
+      <a href=https://www.youtube.com/watch?v=UsFQ9kbpQhw> 好久不见 - Long time no see</a><br><br>
+
+      <h1>TV SHOWS</h1><br>Diàn shì jù<br>电视剧<br>Nín zuì xǐhuān de diànshìjù shì shénme<br>你最喜欢的电视剧是什么<br>What is your favorite TV Show?<br>
+      <br>Here are some popular TV shows in China right now:<br><br>
+      1. The Story Of Minglan 知否知否应是绿肥红瘦 <br>
+      2. Anti-Japanese 荡寇 <br>
+      3. I Will Never Let You Go 小女花不弃 <br>
+      4. Story of Yangxi Palace 延禧攻略 <br>
+      5. Happy Camp <br>
+      6. Ashes of Love 香蜜沉沉烬如霜 <br>
+    </p>
+  </div>
+
+  <div id="Food" class="tabcontent">
+    <h1>Food</h1>
+    <p> Do you ever find yourself at a Chinese restaurant having no idea what to order? Well you’ve come to the right place! <br>
+      Here are the most popular dishes in the Chinese cuisine that you need to try ASAP!
+      <div class="column"> Jiǎozi<br>饺子<br>Dumplings<br><img class="foodImg" src= http://s15.sinaimg.cn/mw690/a5bdca08gx6CKV4hHf86e&690> </div>
+      <div class="column">Bāozi<br>包子<br>steamed bun<br><img class="foodImg" src= https://omnivorescookbook.com/wp-content/uploads/2018/01/Kimchi-Pork-Steamed-Bun-9.jpg></div>
+      <div class="column">Miàntiáo<br>面条<br>noodles<br><img class="foodImg" src=https://www.loveandoliveoil.com/wp-content/uploads/2015/03/soy-sauce-noodles4-1-600x900.jpg></div>
+      <div class="column">chá<br>茶<br>Tea<br><img class="foodImg" src=https://st2.depositphotos.com/1761693/7800/i/950/depositphotos_78002316-stock-photo-green-tea-with-jasmin-top.jpg></div>
+      <div class="column">nǎichá<br>奶茶<br>Milk tea<br><img class="foodImg" src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Classic_bubble_tea.jpg/220px-Classic_bubble_tea.jpg></div>
+      <div class="column">tāng<br>汤<br>Soup<br><img class="foodImg" src=https://www.gimmesomeoven.com/wp-content/uploads/2017/01/Chinese-Hot-and-Sour-Soup-Recipe-1-2.jpg></div>
+    </div>
+
+    <div id="History" class="tabcontent">
+      <h1>History</h1>
+    </div>
+
+
+    <div id="Translator" class="tabcontent">
+      <h1>Translator</h1>
+    </div>
+
+    <div id="Conversation" class="tabcontent">
+      <h1>BASIC WORDS</h1>
+      <div class="column2">
+        <p id="wo">1. <br>Wǒ<br><strong>我</strong><br>I</p>
+        <p id="ni">2.<br>Nǐ<br><strong>你</strong><br>You</p>
+        <p id="wo">3.<br>Jiā<br><strong>家</strong><br>Home</p>
+        <p id="ni">4.<br>Ài<br><strong>爱</strong><br>English meaning: love</p>
+        <p id="wo">5.<br>xiǎng<br><strong>想</strong><br>miss</p>
+        <p id="ni">6.<br>Hěn<br><strong>很</strong><br>very</p>
+        <p id="wo">7.<br> Bù<br><strong>不</strong><br>No</p>
+      </div>
+      <div class="column2">
+        <p id="wo">Sentence:<br>Wǒ wǔ suìle<br><strong>我</strong>五岁了。<br>I am five years old.</p>
+        <p id="ni">Sentence:<br>Nǐ jiào shénme míngzì<br><strong>你</strong>叫什么名字<br>What is your name?</p>
+        <p id="wo">Sentence:<br>Wǒ xiǎng huí jiā<br>我想回<strong>家</strong>。<br>I want to go home.</p>
+        <p id="ni">Sentence:<br>Wǒ ài nǐ<br>我<strong>爱</strong>你。<br>I love you.</p>
+        <p id="wo">Sentence:<br>Wǒ xiǎng nǐ<br>我<strong>想</strong>你<br>I miss you.</p>
+        <p id="ni">Sentence:<br>Tā hěn měilì<br>她<strong>很</strong>美丽。<br>She is very beautiful.</p>
+        <p id="wo"><br>Sentence:<br>Wǒ bùyào qù xuéxiào.<br>我<strong>不</strong>要去学校<br>I do not want to go to school.
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="parallax"></div>
+
+  </body>
