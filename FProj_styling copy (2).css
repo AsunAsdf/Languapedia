@@ -181,11 +181,11 @@ body, html {
 }
 
 .example1 h1{
-  height: 50px;	
+  height: 50px;
  overflow: hidden;
  position: relative;
 }
-.example1 h3 {
+.example1 h1 {
  font-size: 3em;
  color: limegreen;
  position: absolute;
