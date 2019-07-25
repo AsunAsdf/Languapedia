@@ -180,7 +180,7 @@ body, html {
   border-radius: 12px;
 }
 
-.example1 h1{
+.example1 {
   height: 50px;
  overflow: hidden;
  position: relative;
