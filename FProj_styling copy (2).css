@@ -48,6 +48,11 @@ html {
   float: left;
   width: 50%;
 }
+.column3{
+  float: left;
+  width: 33.33%;
+  background-color: #f7e1e2;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
