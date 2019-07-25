@@ -30,7 +30,7 @@ html {
   border-radius: 50px;
 }
 #wo{
-  background-color: blue;
+  background-color: #93ceed;
 }
 /* body {
   background: url(https://pic.chinesefontdesign.com/uploads/2017/03/chinesefontdesign.com_2017-03-20_17-52-49.jpg);
@@ -41,7 +41,10 @@ html {
   float: left;
   width: 33.33%;
 }
-
+.column2 {
+  flot: left;
+  width: 50%;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
